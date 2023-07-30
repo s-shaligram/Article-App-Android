@@ -17,7 +17,7 @@ class NYTimesApiClient {
 
 //        https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=yourkey
         const val API_BASE_URL = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
-        const val API_KEY = "vSNWSKJVxbg7KuMGTVB9pKAlilxP5S2L"
+        const val API_KEY = ""
     }
     private val client: OkHttpClient = OkHttpClient()
     private val gson: Gson = GsonBuilder().create()
